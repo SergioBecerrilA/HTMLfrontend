@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria CookCI</title>
+
+    <link rel="stylesheet" href="./colores.css">
+
+
+
+</head>
+<body>
+    <div>
+    <h1>Bienvenidos a Pasteleria CookCei </h1>
+    <img src="./assets/img/Logo3.png" alt="logo pasteleria" width="180px"> 
+    </div>
+    <br>
+    <br>
+    <br>
+    
+
+    <h2>Menú de pasteles</h2>
+    <p>Vanilla..............................170 pesos<p>
+    <p>Chocolate............................185 pesos</p>
+    <p>3 leches.............................200 pesos</p>
+    <p>Marmolado............................220 pesos</p>
+    <p>Fresa................................195 pesos</p>
+    <br>
+    <h2>Adornos</h2>
+    <p>Crema pastelera......................80 pesos</p>
+    <p>Cerezas..............................50 pesos</p>
+    <p>Chispas de chocolate.................30 pesos</p>
+    <p>Chispas de chocolate (colores).......30 pesos</p>
+    <br>
+    <br>
+
+    
+    <section>
+    <form  action="pedido.js">
+        <h2>Realiza tu pedido</h2>
+        <label for="Nombre">Proporcionanos tu nombre:</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br>
+        <label for="Telefono">Su numero de telefono:</label><br>
+        <input type="text" id="Telefono" name="Telefono" placeholder="Telefono"><br>
+        <label for="Email">Su correo electronico:</label><br>
+        <input type="text" id="Email" name="Email" placeholder="Email"><br>
+        <label for="Descripcion">Descripcion del pastel:</label><br>
+        <input type="text" id="Descripcion" name="Descripcion" placeholder="Descripcion"><br>
+
+            
+
+        <p>El sabor del pastel(puede ser eleccion multiple)</p>
+        <input type="checkbox" id="topping1" name="topping1" value="Vanilla">
+        <label for="topping1">Sabor vainilla</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Chocolate">
+        <label for="topping2">Sabor chocolate</label><br>
+        <input type="checkbox" id="topping3" name="topping3" value="3leches">
+        <label for="topping3">Sabor 3 leches</label><br>
+        <input type="checkbox" id="topping4" name="topping4" value="Marmolado">
+        <label for="topping4">Sabor marmolado</label><br>
+        <input type="checkbox" id="topping5" name="topping5" value="Fresa">
+        <label for="topping5">Sabor fresa</label><br><br>
+
+        <p>Los adornos de su pastel seran</p>
+        <input type="checkbox" id="adorno1" name="adorno1" value="Crema">
+        <lable for="Crema">Crema pastelera</lable>
+        <input type="checkbox" id="adorno2" name="adorno2" value="Cerezas">
+        <lable for="Crema">Cerezas</lable>
+        <input type="checkbox" id="adorno3" name="adorno3" value="ChispasChocolate">
+        <lable for="Crema">Chispas de chocolate</lable>
+        <input type="checkbox" id="adorno4" name="adorno4" value="ChispasColores">
+        <lable for="Crema">ChispasColores</lable>
+        <br><br>
+
+        <input type="reset">
+        <input type="submit">
+        <br>
+
+    </form>
+    </section>
+
+    <p>Ubicacion - Av. Niños heores #459 Colonia Leva 3548957108</p>
+
+</body>
+</html>

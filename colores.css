@@ -1,0 +1,33 @@
+p {
+  color: white;
+  text-align: center;
+}
+p.titulo {
+  color: black;
+  text-align: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+body {
+  background: linear-gradient(rgba(242, 188, 148, 1), rgba(209, 71, 60, 1));
+}
+
+table,
+th,
+td {
+  border: 1px solid rgba(134, 25, 17, 1);
+  border-collapse: collapse;
+  color: white;
+  margin: auto;
+}
+th,
+td {
+  padding: 10px;
+}
+div,
+section {
+  text-align: center;
+}
